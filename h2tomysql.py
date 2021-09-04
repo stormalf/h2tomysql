@@ -179,7 +179,7 @@ def parseFile(h2file):
                 isForeign, tokens, idforeign, idkey = checkIfForeign(stm)
                 if isForeign:
                     dForeign[i] = Token(KEY, stm, tokens, idforeign, idkey, 0 )    
-        printTokenResult(dSequences, dComments, dDatabase, dTables, dAlter, dIndex, dView)
+        #printTokenResult(dSequences, dComments, dDatabase, dTables, dAlter, dIndex, dView)
     except IOError:
         print("Error during reading " + h2file)
         isSuccess = False   
