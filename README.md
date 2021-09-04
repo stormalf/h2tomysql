@@ -55,6 +55,7 @@ H2ToMysql version 1.0.0
 
 example : supposing you generated a h2.sql that contains the export of h2 script. the command creates a mysql.sql that removes some keywords not allowed with mysql and removes also the comments and the create sequence
 Do not forget to use first the h2tomysql.sh to generate your h2.sql (change the name into the bash script)
+
 python3 h2tomysql.py h2.sql mysql.sql
 
 ## How to improve it
