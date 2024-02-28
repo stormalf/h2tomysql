@@ -6,7 +6,7 @@ migrate database from h2 to mysql using python and bash
 
 It's not a tool that will do everything, it's more an example (and not the best some refactoring will be needed to have a cleaner code!)
 It can help someone that wants to automate the h2 to mysql migration and doesn't know how to start or how to do it.
-If it knows python it can help because the code doesn't deal with all cases and some specific errors can occur like overpassing the
+If he knows python it can help because the code doesn't deal with all cases and some specific errors can occur like overpassing the
 mysql column size limited to 65535 if you have many VARCHAR in your create tables, I managed here only some cases with VARCHAR(4000), VARCHAR(10000) and VARCHAR(20000).
 It's not for production purpose!
 
